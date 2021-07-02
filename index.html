@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a61e1eaf11.js" crossorigin="anonymous"></script>
+    <title>YOUTUBE</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">YOUTUBE</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <section class="player">
+        <iframe  src="https://www.youtube.com/embed/gdZLi9oWNZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <div class="info_up">
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#bts</li>
+                    <li>#방탄소년단</li>
+                    <li>#dynamite</li>
+                </ul>
+                <div class="title_btn">
+                    <div class="title clamp">
+                        Clone Coding: YouTube Mobile Website 유튜브 모바일 웹사이트 따라 만들기 / 프론트엔드 개발자 입문편: HTML,CSS, Javascript/방탄소년단-다이너마이트MV
+                    </div>
+                    <button class="morebtn">
+                        <i class="fas fa-sort-down"></i>
+                    </button>
+                </div>
+            
+                <div class="views">1M views 1month ago</div>
+            </div>
+            <div class="actions">
+                <ul>
+                    <li><button><i class="fas fa-thumbs-up active"></i><span>1000k</span></button></li>
+                    <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                    <li><button><i class="fas fa-share"></i><span>share</span></button></li>
+                    <li><button><i class="fas fa-plus"></i><span>save</span></button></li>
+                    <li><button><i class="fas fa-flag"></i><span>report</span></button></li>
+                </ul>
+            
+            </div>
+            <div class="channel">
+                <div class="metadata">
+                    <img src="./img/dy.jpg" alt="">
+                    <div class="info">
+                        <span class="name">방탄소년단</span>
+                        <span class="subscribers">100M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">
+                    subscribe
+                </button>
+            </div>
+        </section>
+
+        <section class="upnext">
+            <span class="title">
+                Up next
+            </span>
+            <ul>
+                <li class="item">
+                    <div class="img"> <img src="./img/dy.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">BTS-다이너마이트</span>
+                        <span class="name">BTS</span>
+                        <span class="views">82k views</span>
+                    </div>
+                    <button class="morebtn">  <i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"> <img src="./img/dy.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">BTS-BUTTER</span>
+                        <span class="name">BTS</span>
+                        <span class="views">82k views</span>
+                    </div>
+                    <button class="morebtn">  <i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"> <img src="./img/dy.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">BTS-작은 것들을 위한시</span>
+                        <span class="name">BTS</span>
+                        <span class="views">82k views</span>
+                    </div>
+                    <button class="morebtn">  <i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script src="./main.js"></script>
+<!-- <script>
+    const moreBtn = document.querySelector('.info_up .metadata .title_btn .morebtn');
+    const title = document.querySelector('.info_up .metadata .title_btn .title');
+
+    moreBtn.addEventListener('click', () => {
+        moreBtn.classList.toggle('clicked');
+        title.classList.toggle('clamp');
+    });
+</script> -->
+
+</body>
+</html>
